@@ -25,6 +25,11 @@ var questions = [
         choices: ["Javascript", "terminal / bash", "for loops", "console log"],
         answer: "console log"
     },
+    {
+        title: "What does DOM stand for?",
+        choices: ["Direct Order Method", "Document Object Model", "Declaration of Occupational Medicine", "Doctor Oliver Moneystacks"],
+        answer: "Document Object Model"
+    },
 
 ];
 // Declared variables
@@ -39,7 +44,7 @@ var questionsDiv = document.querySelector("#questionsDiv");
 var wrapper = document.querySelector("#wrapper");
 
 // Seconds left is 15 seconds per question:
-var secondsLeft = 76;
+var secondsLeft = 91;
 // Holds interval time
 var holdInterval = 0;
 // Holds penalty time
